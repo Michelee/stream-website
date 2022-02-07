@@ -1,0 +1,15 @@
+{
+  "id": "northwestern_Mem-Hospital",
+  "name": "Northwestern Memorial Hospital",
+  "address": "251 E Huron St, Chicago, IL 60611, United States",
+  "total_doctors": 3800,
+  "number_of_cities": 21,
+  "stats": {
+    "corona_cases": [200000, 289200],
+    "active_cases": [90000, 96300],
+    "recovered": [90000, 98700],
+    "deaths": [23600, 23900],
+    "testing_done": [321400, 500000],
+    "beds_available": [2500, 2800]
+  }
+}

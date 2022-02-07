@@ -1,0 +1,42 @@
+.statCardContainer {
+  padding: 10px 10px 15px;
+  border: 2px solid var(--grey-light);
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.statCardYellow {
+  background-color: var(--yellow);
+}
+
+.statCardPurple {
+  background-color: var(--purple);
+  color: white;
+}
+
+.statCardPurple svg path {
+  fill: white;
+}
+
+.statCardIcon svg {
+  width: 30px;
+}
+
+.statCardValue {
+  font-size: 26px;
+  font-weight: bold;
+  display: block;
+  margin: 2px 0 5px;
+}
+
+.statCardTitle {
+  font-size: 14px;
+  color: var(--grey);
+  text-transform: capitalize;
+}
+
+@media (min-width: 600px) {
+  .statCardLarge {
+    height: 232px;
+  }
+}

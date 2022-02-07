@@ -1,0 +1,38 @@
+.infoBoxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.infoBoxIcon {
+  padding: 13px;
+  background-color: var(--purple-medium);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.infoBoxIcon svg {
+  width: 22px;
+}
+
+.infoBoxData {
+  margin-left: 10px;
+}
+
+.infoBoxIcon svg path {
+  fill: white;
+}
+
+.infoBoxTitle,
+.infoBoxValue {
+  font-weight: bold;
+  display: block;
+}
+
+.infoBoxTitle {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.infoBoxValue {
+  font-size: 20px;
+}

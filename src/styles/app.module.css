@@ -1,0 +1,79 @@
+.appContainer {
+  max-width: var(--app-width);
+  -webkit-box-shadow: 3px 3px 15px 5px rgba(209, 209, 209, 1);
+  -moz-box-shadow: 3px 3px 15px 5px rgba(209, 209, 209, 1);
+  box-shadow: 3px 3px 15px 5px rgba(209, 209, 209, 1);
+}
+
+.appMain {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.appSection {
+  margin-top: 35px;
+}
+
+.appHospitalOverview {
+  background-color: var(--blue);
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+
+.appHospitalOverview h3 {
+  margin: 12px auto;
+}
+
+.appHospitalOverview p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--purple-medium);
+  line-height: 28px;
+}
+
+.appHospitalGeneralInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 25px;
+}
+
+.appStats {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .appHospitalOverview {
+    background-image: url("../assets/doctors.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+  }
+
+  .appHospitalGeneralInfo {
+    gap: 35px;
+  }
+
+  .appStats {
+    flex-wrap: wrap;
+    height: 232px;
+  }
+}
+
+@media (min-width: 900px) {
+  .appContainer {
+    margin: 50px auto;
+    display: flex;
+    border-radius: 20px;
+  }
+
+  .appMain {
+    padding: 50px 45px;
+    border-radius: 0 20px 20px 0;
+  }
+}
